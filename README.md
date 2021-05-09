@@ -10,4 +10,4 @@ To run Minecraft in css functionally, you have to follow these Steps:
 3. then start the "index.html"
 4. click somewhere in the browser and then you are good to go, minecraft should start susscesfully!
 
-for help just create an issue or cat me on discord: zurei#7231
+for help just create an issue or chat me on discord: zurei#7231
