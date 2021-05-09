@@ -1,11 +1,11 @@
 
 function vollbild() {
-  if (document.getElementById("myVideo").requestFullscreen) {
-    document.getElementById("myVideo").requestFullscreen();
-  } else if (elem.webkitRequestFullscreen) {
-    document.getElementById("myVideo").webkitRequestFullscreen();
-  } else if (elem.msRequestFullscreen) {
-    document.getElementById("myVideo").msRequestFullscreen();
+  if (document.documentElement.requestFullscreen) {
+    document.documentElement.requestFullscreen();
+  } else if (document.documentElement.webkitRequestFullscreen) {
+    document.documentElement.webkitRequestFullscreen();
+  } else if (document.documentElement.msRequestFullscreen) {
+    document.documentElement.msRequestFullscreen();
   }
   document.getElementById("body").style.cursor = "none";
   document.getElementById("myVideo").play()
